@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarvis — Personal Assistant</title>
+<style>
+  :root { --bg:#fbfbfa; --fg:#1b1b19; --muted:#6b6b66; --line:#e3e3df; --accent:#2f6f4f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16181a; --fg:#eceae6; --muted:#9a9a93; --line:#2c2f32; --accent:#8fd0ab; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+  .wrap { max-width:640px; margin:0 auto; padding:72px 16px 96px; }
+  h1 { font-size:2rem; letter-spacing:-.02em; margin:0 0 .35em; }
+  h2 { font-size:1.05rem; margin:2.4em 0 .6em; }
+  p { margin:0 0 1em; }
+  ul { margin:0 0 1em; padding-left:1.2em; }
+  li { margin:.3em 0; }
+  .lede { color:var(--muted); font-size:1.08rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--muted); font-size:.9rem; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Jarvis</h1>
+  <p class="lede">A private personal assistant application, used by a single person — its own developer and owner.</p>
+
+  <h2>What it does</h2>
+  <p>Jarvis runs on the owner's own computer and is operated through a private Telegram bot. It helps with everyday work: keeping track of tasks, preparing documents, and answering questions.</p>
+
+  <h2>Google services it uses</h2>
+  <ul>
+    <li><strong>Google Calendar</strong> — to show the owner their schedule and to add or move their own events when asked.</li>
+    <li><strong>Gmail</strong> — to show the owner their recent mail, and to draft or send replies on their explicit instruction.</li>
+  </ul>
+  <p>Jarvis only ever connects to the account of the person running it. It is not offered as a service to anyone else, and it has no other users.</p>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="privacy.html">privacy policy</a> and the <a href="terms.html">terms of service</a>.</p>
+
+  <footer>Jarvis — a personal, single-user project. Not a commercial product.</footer>
+</div>
+</body>
+</html>
